@@ -1,0 +1,17 @@
+.form{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 50vw;
+    padding-top: 100px;
+    padding: 30px;
+    min-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    text-align: center;
+}
+.formItems{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

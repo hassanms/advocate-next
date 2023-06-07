@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40vh;
+  /* padding: 4rem; */
+  min-height: 100vh;
+  background-color: #e9eef2;
+}
+
+.herosecImg {
+  min-height:80vh;
+  margin-top: 0px;
+  background-size: cover;
+  width:100vw;
+  /* border: solid red; */
+    /* background-image: url("https://www.unifor.org/sites/default/files/styles/16_9_scale_and_crop_medium/public/images/AdobeStock_201789281-sm.jpg?h=fcbdf790&itok=nAb_8z9m"); */
+}
+
+.cards{
+  background-color: rgba(228, 244, 253, 0.589);
+  width: 100vw;
+  min-height: 120vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; */
+  /* padding-top: 30vh; */
+  
+}
+.formContainer{
+  min-height: 90vh;
+  padding-bottom: 4rem;
+  /* padding-top: 25vh; */
+}
+
+.absbutton{
+  height: 7vh;
+  width: 10vw;
+  z-index: 2;
+  right: 88vw;
+  top:90%;
+  position: fixed;
+}
+
+.absbutton:hover{
+  height: 8vh;
+  width: 10.5vw;
+  transition: .5s;
+  cursor: pointer ;
+}

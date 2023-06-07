@@ -1,0 +1,27 @@
+.zoommain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.zoomlinkbox{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid brown;
+    min-width: 40vw;
+    gap: 7vh;
+    min-height: 30vh;
+    padding: 10px;
+    border-radius: 20px;
+}
+.aTag{
+    color: #3182CE;
+    border-radius: 20px;
+    padding: 10px;
+}
+.aTag:hover{
+    text-decoration: underline;
+}

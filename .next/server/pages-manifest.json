@@ -1,0 +1,16 @@
+{
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/admin": "pages/admin.html",
+  "/api/retrive_session": "pages/api/retrive_session.js",
+  "/api/zoom_session": "pages/api/zoom_session.js",
+  "/api/checkout_sessions": "pages/api/checkout_sessions.js",
+  "/contact": "pages/contact.html",
+  "/": "pages/index.html",
+  "/mydata": "pages/mydata.html",
+  "/zoomlink": "pages/zoomlink.html",
+  "/api/hello": "pages/api/hello.js",
+  "/404": "pages/404.html"
+}

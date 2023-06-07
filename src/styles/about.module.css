@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+.container {
+
+    min-height: 100vh;
+    background-color: #e9eef2;
+    padding: 3rem;
+    font-family: 'Poppins', sans-serif
+}
+
+.upperPart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 680px;
+}
+
+.smallHead {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    color: #C05621;
+    font-size: 14px !important;
+}
+
+.smallHead .line {
+    width: 2.5rem;
+    height: 2px;
+    background-color: #C05621;
+
+}
+
+
+.mainTitle {
+    font-size: 3.438rem;
+    font-weight: 700;
+    color: #0f172a;
+
+}
+
+.headText {
+    font-size: 18px;
+    color: #718096;
+    padding-bottom: 2rem;
+}
+
+.bottomPart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+
+}
+
+.rightPart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rightHead {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 0rem 2rem;
+    background-color:
+        #ededf3;
+    border-radius: 8px;
+}
+
+.leftImg {
+    max-width: 70%;
+    max-height: 35rem ;
+    min-height: 25rem;
+}
+
+.socialBox {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.socialIcon {
+    font-size: 1.5rem;
+    color: #718096;
+    transition: transform ease 300ms;
+    cursor: pointer;
+
+}
+
+.socialIcon:hover {
+    transform: translate(0, -10px);
+    color: #C05621;
+}
+
+.leftBottom {
+    padding-top: 1rem;
+}
+
+.bottomList {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-top: 1rem;
+}
+
+.bottomText {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-top: 1rem;
+}
+
+@media (max-width:76rem) {
+    .bottomPart {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+
+    }
+}
+
+@media (max-width:34rem) {
+    .container{
+        padding: 1rem;
+    }
+    .mainListBox {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
